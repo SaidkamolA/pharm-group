@@ -250,11 +250,8 @@ export const translations = {
       pageTitle: "Pharmaceutical Registration & Regulatory Affairs in Uzbekistan | Pharm Group",
       pageDescription:
         "Pharm Group (UBI Consulting LLC): drug and medical device registration, pharmacovigilance, and market entry support for pharmaceutical companies in Uzbekistan.",
-<<<<<<< HEAD
       keywords:
         "Pharm Group, Pharm Group Uzbekistan, pharm Uzbekistan, pharmaceutical registration Uzbekistan, drug registration Uzbekistan, regulatory consulting Uzbekistan, pharmacovigilance Uzbekistan, medical device registration Uzbekistan, pharma market entry Uzbekistan, UBI Consulting LLC, pharm.ubi.uz",
-=======
->>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
       ogSiteName: "Pharm Group",
       ogUrl: "https://pharm.ubi.uz",
       ogImage: "https://pharm.ubi.uz/images/cover.png",
@@ -338,11 +335,8 @@ export const translations = {
       pageTitle: "Регистрация лекарств и регуляторный консалтинг в Узбекистане | Pharm Group",
       pageDescription:
         "Pharm Group (UBI Consulting LLC): регистрация лекарств и медицинских изделий, фармаконадзор и поддержка выхода на рынок фармкомпаний в Узбекистане.",
-<<<<<<< HEAD
       keywords:
         "Pharm Group, Pharm Group Узбекистан, регистрация лекарств Узбекистан, фармацевтика Узбекистан, регуляторный консалтинг, фармаконадзор, медицинские изделия регистрация, вывод препаратов на рынок, pharm.ubi.uz",
-=======
->>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
       ogSiteName: "Pharm Group",
       ogUrl: "https://pharm.ubi.uz",
       ogImage: "https://pharm.ubi.uz/images/cover.png",
@@ -422,11 +416,8 @@ export const translations = {
       pageTitle: "O'zbekistonda farmatsevtik ro'yxatdan o'tkazish va regulyator xizmatlar | Pharm Group",
       pageDescription:
         "Pharm Group (UBI Consulting LLC): dori va tibbiy buyumlarni ro'yxatdan o'tkazish, farmakovigilans va xalqaro farmatsevtika kompaniyalari uchun bozorga chiqish yordami.",
-<<<<<<< HEAD
       keywords:
         "Pharm Group, Pharm Group O'zbekiston, farmatsevtik ro'yxatdan o'tkazish, dori vositalari O'zbekiston, regulyator konsalting, farmakovigilans, tibbiy buyumlar, pharm.ubi.uz",
-=======
->>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
       ogSiteName: "Pharm Group",
       ogUrl: "https://pharm.ubi.uz",
       ogImage: "https://pharm.ubi.uz/images/cover.png",
