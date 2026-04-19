@@ -6,10 +6,7 @@ import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import MobileContactBar from "./components/MobileContactBar";
 import { useDocumentSeo } from "./hooks/useDocumentSeo";
-<<<<<<< HEAD
 import { useStructuredData } from "./hooks/useStructuredData";
-=======
->>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Clients from "./sections/Clients";
@@ -91,10 +88,7 @@ function App() {
   }, [t, location.pathname]);
 
   useDocumentSeo(seoMeta);
-<<<<<<< HEAD
   useStructuredData({ pathname: location.pathname, meta: seoMeta, faq: t.faq });
-=======
->>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
 
   const getHeaderOffset = () => {
     const header = document.querySelector("header");

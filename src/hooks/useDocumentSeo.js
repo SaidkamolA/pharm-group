@@ -40,12 +40,9 @@ export function useDocumentSeo(meta) {
 
     setCanonical(meta.canonicalUrl);
     setMetaName("description", meta.pageDescription);
-<<<<<<< HEAD
     if (meta.keywords) {
       setMetaName("keywords", meta.keywords);
     }
-=======
->>>>>>> a7e0216743e7ff0029e1c04002c658bac61faf80
 
     setMetaProperty("og:type", "website");
     setMetaProperty("og:title", meta.pageTitle);
