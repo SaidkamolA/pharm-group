@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: "Inter", sans-serif;
+    background: #020617;
+    color: #334155;
+    text-rendering: geometricPrecision;
+  }
+
+  a:focus-visible {
+    @apply rounded-sm outline-none ring-2 ring-blue-600 ring-offset-2;
+  }
+
+  ::selection {
+    background: rgba(59, 130, 246, 0.25);
+    color: #0f172a;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto w-[90%] max-w-[1240px];
+  }
+
+  .section-padding {
+    @apply py-24;
+  }
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes scrollClients {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.hero-overlay {
+  background: linear-gradient(120deg, rgba(11, 94, 215, 0.25), rgba(255, 255, 255, 0.05), rgba(11, 94, 215, 0.25));
+  background-size: 200% 200%;
+  animation: gradientMove 8s ease infinite;
+}
+
+.clients-track {
+  animation: scrollClients 28s linear infinite;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 700ms ease, transform 700ms ease;
+  will-change: transform, opacity;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.icon-lift {
+  transition: transform 220ms ease, box-shadow 220ms ease;
+}
+
+.icon-lift:hover {
+  transform: translateY(-2px);
+}
+
+.icon-lift:active {
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll,
+  .service-card-pro,
+  .hero-overlay,
+  .icon-lift:hover,
+  .icon-lift:active {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
